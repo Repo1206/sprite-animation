@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+#canvas1 {
+  width: 600px;
+  height: 600px;
+}
+
+.controls {
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  transform: translateX(-50%);
+}
+
+.controls,
+select,
+option {
+  font-size: 25px;
+}
